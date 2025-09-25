@@ -1,4 +1,6 @@
-
+// For L1 local small data lookup → prefer for loop (less overhead).
+//For business logic with transformations → prefer Streams (clean & future-proof).
+For business logic with transformations → prefer Streams (clean & future-proof).
 import java.util.*;
 import java.util.stream.*;
 
